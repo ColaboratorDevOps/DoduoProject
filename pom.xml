@@ -21,18 +21,18 @@
     <repositories>
         <repository>
             <id>nexus-public</id>
-            <url>http://192.168.56.63:8081/nexus/content/groups/public/</url>
+            <url>http://192.168.56.63:8081/repository/maven-public/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://192.168.56.63:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://192.168.56.63:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus-releases</id>
-            <url>http://192.168.56.63:8081/nexus/content/repositories/releases/</url>
+            <url>http://192.168.56.63:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
