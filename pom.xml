@@ -41,8 +41,8 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/ColaboratorDevOps/DoduoProject.git</connection>
-        <developerConnection>scm:git:https://github.com/ColaboratorDevOps/DoduoProject.git</developerConnection>
+        <connection>scm:git:https://ColaboratorDevOps:DevOpsTeam1@github.com/ColaboratorDevOps/DoduoProject.git</connection>
+        <developerConnection>scm:git:https://ColaboratorDevOps:DevOpsTeam1@github.com/ColaboratorDevOps/DoduoProject.git</developerConnection>
         <tag>HEAD</tag>
         <url>https://github.com/ColaboratorDevOps/DoduoProject</url>
     </scm>
