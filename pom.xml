@@ -38,6 +38,10 @@
 
     </distributionManagement>
 
+    <properties>
+        <project.scm.id>git</project.scm.id>
+    </properties>
+
     <scm>
         <connection>scm:git:https://github.com/ColaboratorDevOps/DoduoProject.git</connection>
         <developerConnection>scm:svn:https://github.com/ColaboratorDevOps/DoduoProject.git</developerConnection>
