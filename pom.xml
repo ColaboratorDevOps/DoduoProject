@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.javasamples.apps</groupId>
-    <artifactId>Java Simple Web Page Particles</artifactId>
+    <artifactId>Java-Simple-Web-Page-Particles</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <packaging>war</packaging>
