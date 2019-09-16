@@ -93,6 +93,7 @@
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>releases</releaseProfiles>
+                    <checkModificationExclude>pom.xml</checkModificationExclude>
                 </configuration>
             </plugin>
 
