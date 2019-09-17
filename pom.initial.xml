@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.javasamples.apps</groupId>
-    <artifactId>Java Simple Web Page Particles</artifactId>
+    <artifactId>Java-Simple-Web-Page-Particles</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <packaging>war</packaging>
@@ -41,43 +40,16 @@
     <properties>
         <project.scm.id>git</project.scm.id>
     </properties>
-    
+
     <scm>
         <connection>scm:git:https://github.com/ColaboratorDevOps/DoduoProject.git</connection>
-        <developerConnection>scm:svn:https://github.com/ColaboratorDevOps/DoduoProject.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/ColaboratorDevOps/DoduoProject.git</developerConnection>
         <tag>HEAD</tag>
         <url>https://github.com/ColaboratorDevOps/DoduoProject</url>
     </scm>
 
     <build>
         <plugins>
-
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>buildnumber-maven-plugin</artifactId>
-                <version>1.4</version>
-                <executions>
-                    <execution>
-                        <id>buildnumber</id>
-                        <phase>validate</phase>
-                        <goals>
-                            <goal>create</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <format>{0,number}</format>
-                    <items>
-                        <item>buildNumber</item>
-                    </items>
-                    <doCheck>false</doCheck>
-                    <doUpdate>false</doUpdate>
-                    <revisionOnScmFailure>unknownbuild</revisionOnScmFailure>
-                    <properties>
-                        <major.minor.version>1.0</major.minor.version>
-                    </properties>
-                </configuration>
-            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -90,9 +62,8 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
-                    <tagNameFormat>v@{project.version}</tagNameFormat>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <releaseProfiles>releases</releaseProfiles>
+                    <checkModificationExclude>pom.xml</checkModificationExclude>
+                    <checkModificationExclude>buildNumber.properties</checkModificationExclude>
                 </configuration>
             </plugin>
 
