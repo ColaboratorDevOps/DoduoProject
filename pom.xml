@@ -3,7 +3,7 @@
 
     <groupId>org.javasamples.apps</groupId>
     <artifactId>Java-Simple-Web-Page-Particles</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.6</version>
 
     <packaging>war</packaging>
 
@@ -44,7 +44,7 @@
     <scm>
         <connection>scm:git:https://github.com/ColaboratorDevOps/DoduoProject.git</connection>
         <developerConnection>scm:git:https://github.com/ColaboratorDevOps/DoduoProject.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>Java-Simple-Web-Page-Particles-1.0.6</tag>
         <url>https://github.com/ColaboratorDevOps/DoduoProject</url>
     </scm>
 
